@@ -16,10 +16,12 @@ export class Person {
     return this.age = age
    }
 
-   getAge(age:number){
+   getAge(){
     return this.age
    }
-  getFullName(firstname:string, lastname:string){
+  getFullName(
+
+  ){
     return `${this.firstname}  ${this.lastname}`
   }
 
