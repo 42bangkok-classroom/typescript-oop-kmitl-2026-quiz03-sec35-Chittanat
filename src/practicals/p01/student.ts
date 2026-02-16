@@ -3,11 +3,11 @@ export class Student {
     lastname?:string;
 
     constructor(firstname?:string, lastname?:string){
-        this.firstname = firstname
-        this.lastname = lastname
+        this.firstname = firstname;
+        this.lastname = lastname;
     }
     printName(){
-        console.log(`${this.firstname} (${this.lastname})`)
+        console.log(`${this.firstname} ${this.lastname}`)
     }
 }
 
