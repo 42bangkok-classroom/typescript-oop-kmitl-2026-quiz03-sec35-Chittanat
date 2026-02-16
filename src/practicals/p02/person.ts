@@ -22,7 +22,7 @@ export class Person {
   getFullName(
 
   ){
-    return `${this.firstname}  ${this.lastname}`
+    return (`${this.firstname}  ${this.lastname}`)
   }
 
 }
